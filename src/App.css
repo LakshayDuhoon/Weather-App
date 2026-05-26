@@ -1,0 +1,253 @@
+
+body{
+    background-color: rgb(0, 0, 60);
+    padding: 30px;
+}
+
+h1{
+    color: white;
+    align-items: center;
+    justify-self: center;
+    margin-top: 30px;
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+}
+
+.form-control{
+    background-color: rgb(60, 58, 68);
+    color: white;
+    border: none;
+    width: 400px;
+    margin-top: 30px;
+}
+
+.search-btn{
+    height: fit-content;
+    position: relative;
+    top: 28px;
+    margin-left: 15px;
+}
+.form-control::placeholder{
+    color: white;
+}
+
+
+
+.btn:hover{
+    background-color: #3a3b66;
+    color: white;
+}
+
+.Unit-container{
+    position: relative;
+    width: fit-content;
+}
+
+.dropdown-menu-custom{
+    position: absolute;
+
+    top: 60px;
+    right: 0;
+
+    width: 268px;
+
+    background-color: #1f2042;
+
+    border: 1px solid #40416d;
+
+    border-radius: 14px;
+
+    padding: 10px;
+
+    width: 260px;
+
+    z-index: 1000;
+}
+
+.dropdown-btn{
+    color: white;
+
+    border-radius: 10px;
+
+    padding: 12px;
+
+    margin-bottom: 5px;
+
+    background-color: transparent;
+
+    box-shadow: none;
+
+    border: none;
+}
+
+.dropdown-btn:hover{
+    background-color: #34355e;
+
+    color: white;
+}
+
+.heading{
+    color: #9ea0c3;
+
+    font-size: 14px;
+}
+
+.active-item{
+    background-color: #34355e;
+}
+
+hr{
+    border-bottom: 2px solid ;
+    border-color: #4d4f78;
+}
+
+.today-weather-container{
+    background-image: url(./Images/bg-today-large.svg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.location{
+    color: White;
+}
+
+.date{
+    color: white;
+}
+
+.temp{
+    display: flex;
+}
+
+.sunny{
+    height: 100px;
+    width: 100px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+.feel-cont{
+    background-color:  #34355e;
+
+    border: 1px solid #40416d;
+    color: white;
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.flex{
+    display: flex;
+    gap: 30px;
+}
+
+.daily-card{
+   background-color:  #34355e;
+
+    border: 1px solid #40416d;
+    color: white;
+    width: 100px;
+    height: 120px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.temp{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.card-heading{
+    font-size: 18px;
+}
+
+.daily-container{
+    display: flex;
+    gap: 5px;
+    margin-top: 20pxpx;
+    margin-left: 0;
+}
+.daily-heading{
+    color: white;
+    margin-top: 30px;
+}
+
+.hourly-container{
+    background-color:  #34355e;
+
+    border: 1px solid #40416d;
+    border-radius: 10px;
+    padding: 10px 10px;
+    height: 600px;
+    overflow: scroll;
+}
+
+.hourly-nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-bottom: 1px solid gray;
+}
+
+.day-btn{
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    display: block;
+    background-color: transparent;
+}
+
+.Active-day{
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    display: block;
+    background-color:#40416d;
+}
+
+.day-btn-container{
+    background-color: #1f2042;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    padding: 20px;
+}
+
+.collapsible{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #1f2042;
+    margin-bottom: 10px;
+}
+.hourly-card{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #3a3b66;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.icon-time{
+    display: flex;
+}
